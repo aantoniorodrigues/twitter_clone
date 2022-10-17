@@ -23,7 +23,7 @@ config :chirp, ChirpWeb.Endpoint,
   check_origin: false,
   code_reloader: true,
   debug_errors: true,
-  secret_key_base: "HBaut3IkkXy4bf5EF+r4yGayCd3iYsGme5RI4nb6eolVilljnxYfu9CkuhAh10cv",
+  secret_key_base: "DTC5N5zMNAiideT/uDnpeE2w1xtt4JwprxHzyUoBtbGpFaqoIjClbtbTcDn2Usps",
   watchers: [
     # Start the esbuild watcher by calling Esbuild.install_and_run(:default, args)
     esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]}
