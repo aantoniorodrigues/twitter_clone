@@ -16,13 +16,13 @@ defmodule ChirpWeb.PostLive.PostComponent do
       </div>
       <div class="row">
         <div class="column post-button-column">
-          <a href="#" phx-click="like" phx-target="{@myself}">
+          <a href="#" phx-click="like" phx-target={@myself}>
             <i class="far fa-heart"></i> <%= @post.likes_count %>
             like
           </a>
         </div>
         <div class="column post-button-column">
-          <a href="#" phx-click="repost" phx-target="{@myself}">
+          <a href="#" phx-click="repost" phx-target={@myself}>
             <i class="far fa-hand-peace"></i> <%= @post.reposts_count %>
             repost
           </a>
